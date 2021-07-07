@@ -1,0 +1,101 @@
+body {
+  background-image: url("green-yellow-abstract-background_53876-99558.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#logo {
+  position: relative;
+  margin-top: 0px;
+  height: 100px;
+  width: 250px;
+}
+.navigation {
+  background-color: #11bd7aba;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: aquamarine;
+  display: flex;
+}
+
+.navigation ul {
+  overflow: auto;
+  padding: 10px 50px;
+}
+
+.navigation li {
+  float: left;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.navigation li a {
+  text-decoration: none;
+  padding: 10px;
+  color: #085640;
+  font-weight: bold;
+  font-size: 150%;
+}
+.navigation li a:hover {
+  color: honeydew;
+  transition: all 500ms ease;
+}
+#askdonation {
+  margin-top: 30px;
+  color: #3c2dbe;
+  text-shadow: 4px 4px 8px;
+  font-size: 180%;
+  font-weight: 200;
+  font-style: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+#quotes {
+  line-height: 2;
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  padding: 5rem;
+  font-size: 170%;
+  font-weight: 300;
+  text-align: center;
+}
+
+#q1 {
+  color: #28493f;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 10px;
+  border: azure 3px solid;
+  box-shadow: 5px 10px;
+  background-color: #6dd39896;
+}
+#q2 {
+  color: #28493f;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 10px;
+  margin-top: 30px;
+  margin-right: 15px;
+  border: azure 3px solid;
+  background-color: #6dd39896;
+}
+#q3 {
+  color: #28493f;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  border-radius: 10px;
+  margin-left: 15px;
+  border: azure 3px solid;
+  background-color: #6dd39896;
+}
+#q4 {
+  color: #28493f;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 10px;
+  margin-left: 15px;
+  margin-top: 30px;
+  border: azure 3px solid;
+  background-color: #6dd39896;
+}
